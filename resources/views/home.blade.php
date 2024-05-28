@@ -20,7 +20,7 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Welcome to Our Landing Page</h1>
-            <p>Discover the amazing features we offer.</p>
+            <p>{{$contents->content}}</p>
             <a href="#features" class="btn">Learn More</a>
         </div>
     </section>
