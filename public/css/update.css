@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding-top: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 50px; /* Vertical margin for centering */
+    max-width: 600px; /* Maximum width for better readability */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto; /* Center the container horizontally */
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 50%; /* Make buttons full-width inside the container */
+}
+
+.btn-success {
+    background-color: #28a745; /* Green background for success button */
+    border-color: #28a745; /* Matching border color */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Dark gray background for secondary button */
+    border-color: #6c757d; /* Matching border color */
+}
+
+.btn-success:hover,
+.btn-secondary:hover {
+    opacity: 0.8; /* Reduce opacity on hover for visual feedback */
+}

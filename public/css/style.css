@@ -12,10 +12,11 @@ body {
 
 /* Header Styles */
 header {
-    background: #333;
+    background: linear-gradient(135deg, #4c0c88, #96006f);
     color: #fff;
     padding: 1rem 0;
 }
+
 
 header nav {
     display: flex;
@@ -50,18 +51,24 @@ header nav ul li a:hover {
 
 /* Hero Section Styles */
 .hero {
-    background-color: grey;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/images/gulan aren.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
 }
 
 /* .hero .hero-content {
     max-width: 600px;
 } */
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 10px; 
+}
 
 .hero h1 {
     font-size: 3rem;

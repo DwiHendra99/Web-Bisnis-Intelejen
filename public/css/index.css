@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Background color for the body */
+    padding-top: 20px; /* Top padding for the body */
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center; /* Mengatur teks dan isi container ke tengah */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: center; /* Mengatur teks h1 ke tengah */
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%; /* Menggunakan width 100% untuk lebar tabel */
+    max-width: 800px; /* Menetapkan lebar maksimum tabel */
+    margin: 0 auto; /* Mengatur margin otomatis untuk memposisikan tabel ke tengah */
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.table th, .table td {
+    border: 1px solid #dddddd; /* Border for table header and cells */
+    padding: 10px; /* Padding inside table header and cells */
+    text-align: left; /* Left align text inside table header and cells */
+}
+
+.table th {
+    background-color: #f0f0f0; /* Background color for table header */
+    color: #333333; /* Text color for table header */
+    font-weight: bold; /* Bold font weight for table header */
+}
+
+.table td {
+    background-color: #ffffff; /* Background color for table cells */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f2f2f2; /* Background color on hover for table rows */
+}
+
+.btn {
+    padding: 8px 16px; /* Padding inside buttons */
+}
+
+.alert {
+    margin-bottom: 20px; /* Bottom margin for alerts */
+}
+/* CSS for Bootstrap Icons */
+.bi {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+/* Adjust icon size and color */
+.bi-pencil-square {
+    font-size: 1.2rem; /* Adjust icon size */
+    margin-right: 5px; /* Add space between icon and text */
+    color: #212529; /* Icon color */
+}
