@@ -28,6 +28,7 @@ h1 {
 .btn {
     margin-top: 10px;
     width: 50%; /* Make buttons full-width inside the container */
+    
 }
 
 .btn-success {
