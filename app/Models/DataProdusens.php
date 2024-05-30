@@ -10,4 +10,8 @@ class DataProdusens extends Model
     use HasFactory;
 
     protected $guarded = ['id'];
+
+    protected $table = 'data_produsens';
+
+    protected $fillable = ['content'];
 }

@@ -44,17 +44,34 @@ class DataProdusensController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(DataProdusens $dataProdusens)
+    public function edit($id)
     {
-        
+        $content = DataProdusens::findOrFail($id);
+        return view('admin/update', compact('content'));
     }
 
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, DataProdusens $dataProdusens)
+    // Metode untuk memperbarui konten
+    public function update(Request $request, $id)
     {
-        //
+        $content = [
+            'content' => 'required',
+        ];
+        // Validasi input
+        // $validatedData = $request->validate($content);
+
+        $validatedData = $request->validate([
+            'content' => 'required'
+        ]);
+
+
+        // Cari konten berdasarkan ID
+        $contents = DataProdusens::find($id);
+        // dd($contents);
+        // Perbarui deskripsi konten
+        $contents->update($validatedData);
+
+        // Redirect kembali ke halaman index dengan pesan sukses
+        return redirect()->route('contents');
     }
 
     /**

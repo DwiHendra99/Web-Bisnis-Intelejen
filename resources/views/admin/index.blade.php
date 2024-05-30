@@ -11,6 +11,11 @@
     <div class="row">
         <h1> Data Content </h1>
     </div>
+    @if (session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+    @endif
     <table id="example1" class="table table-hover">
         <thead>
             <tr>
@@ -23,8 +28,8 @@
             @foreach ($contents as $content)
                 <td>{{$content->id}}</td>
                 <td>{{$content->content}}</td>
-                <td><button type="button" class="btn btn-danger">Danger</button>
-                    <button type="button" class="btn btn-warning">Warning</button>
+                <td>
+                    <a href="{{ route('content.edit', $content->id) }}" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a>
                 </td>
             @endforeach
         </tbody>
