@@ -14,7 +14,11 @@
 
 <body>
     <div class="row">
-        <h1> Data Content </h1>
+        <h1> Data Content 
+            <form action="/">
+                <button type="submit" class="btn btn-danger">Logout</button>
+            </form>
+        </h1>
     </div>
     @if (session('success'))
         <div class="alert alert-success">
@@ -44,6 +48,7 @@
                     </a>
                 </td>
             @endforeach
+           
         </tbody>
     </table>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
