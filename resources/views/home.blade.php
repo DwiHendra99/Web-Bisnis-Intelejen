@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bisnin Intelejen</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}">
 </head>
 
 <body>
@@ -14,7 +15,8 @@
             <div class="logo">HARGA PRODUSEN</div>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#features">Features</a></li>
+                <li><a href="#featured-services">Producer Price</a></li>
+                <li><a href="#features">Visualization</a></li>
                 <li><a href="/login">Login</a></li>
             </ul>
         </nav>
@@ -26,6 +28,41 @@
             <a href="#features" class="btn">Learn More</a>
         </div>
     </section>
+
+    <!-- Featured Services Section -->
+    <section id="featured-services" class="featured-services section">
+        <div class="container">
+            <div class="row gy-4 justify-content-center">
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-activity icon"></i></div>
+                        <h4><a href="" class="stretched-link">Harga Gula Aren</a></h4>
+                        <img src="{{ asset('images/gula aren.jpg') }}" alt="gula aren.jpg" class="card-image">
+                        <p>Rp.25000</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+                        <h4><a href="" class="stretched-link">Harga Gula Aren Batok</a></h4>
+                        <img src="{{ asset('images/gula aren.jpg') }}" alt="gula aren.jpg" class="card-image">
+                        <p>Rp.15000</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+                        <h4><a href="" class="stretched-link">Harga Gula Aren Semut</a></h4>
+                        <img src="{{ asset('images/gula aren.jpg') }}" alt="gula aren.jpg" class="card-image">
+                        <p>Rp.30000</p>
+                    </div>
+                </div><!-- End Service Item -->
+            </div>
+        </div>
+    </section><!-- /Featured Services Section -->
+
     <section id="features" class="features">
         <iframe width="1366" height="2500"
             src="https://lookerstudio.google.com/embed/reporting/017af013-dd71-4d63-bf83-0b8e8cb84cde/page/1M"
