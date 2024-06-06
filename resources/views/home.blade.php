@@ -36,27 +36,29 @@
                 <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-item position-relative">
                         <div class="icon"><i class="bi bi-activity icon"></i></div>
-                        <h4><a href="" class="stretched-link">Harga Gula Aren</a></h4>
+                        <h4><a href="" class="stretched-link">Gula Aren Semut</a></h4>
                         <img src="{{ asset('images/gula aren.jpg') }}" alt="gula aren.jpg" class="card-image">
-                        <p>Rp.25000</p>
+                        <p>Rp21.903</p>
                     </div>
                 </div><!-- End Service Item -->
 
                 <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-item position-relative">
                         <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-                        <h4><a href="" class="stretched-link">Harga Gula Aren Batok</a></h4>
-                        <img src="{{ asset('images/gula aren.jpg') }}" alt="gula aren.jpg" class="card-image">
-                        <p>Rp.15000</p>
+                        <h4><a href="" class="stretched-link">Gula Aren Merah Kelapa</a></h4>
+                        <img src="{{ asset('images/gula aren merah kelapa.jpg') }}" alt="gula aren merah kelapa.jpg"
+                            class="card-image">
+                        <p>Rp11.944</p>
                     </div>
                 </div><!-- End Service Item -->
 
                 <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-item position-relative">
                         <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-                        <h4><a href="" class="stretched-link">Harga Gula Aren Semut</a></h4>
-                        <img src="{{ asset('images/gula aren.jpg') }}" alt="gula aren.jpg" class="card-image">
-                        <p>Rp.30000</p>
+                        <h4><a href="" class="stretched-link">Gula Aren Batok</a></h4>
+                        <img src="{{ asset('images/gula aren batok.jpeg') }}" alt="gula aren batok.jpeg"
+                            class="card-image">
+                        <p>Rp16.645</p>
                     </div>
                 </div><!-- End Service Item -->
             </div>
